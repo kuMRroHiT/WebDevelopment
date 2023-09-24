@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(160, 99, 99, 0.905) ;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color:  rgb(60, 168, 128); */
+}
+#part2{
+    height: 100%;
+    width: 61.3%;
+    background-color:antiquewhite;
+    background-image: url(https://images.unsplash.com/photo-1575939238474-c8ada13b2724?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+    background-image: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width:  100%;
+    background-color: rgba(3, 3, 3, 0.563);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: rgb(73, 47, 13); */
+}
+#div_item{
+    /* height: 300px; */
+    width: 400px;
+      position: absolute;
+    /* background-color: blue; */
+    left: 7%;
+    top: 50%;
+    transform:translate(0,-50%);
+}
+#div_item>h1{
+    font-size: 85px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: monument;
+    text-transform: uppercase;
+    color: aliceblue;
+    
+}
+#small-img{
+    height: 340px;
+    width: 270px;
+    background-image: url(https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80);
+    background-size: cover;
+    background-position-y: center;
+
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translate(0,-50%);   
+}
+#overlay-small{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(32, 28, 28, 0.646);
+}
+#vertical-text{
+    position: absolute;
+    transform:rotate(90deg);
+    right: -35%;
+    z-index: 2;
+    transform-origin: 0% 0%;
+    /* background: #a55252; */
+
+    
+}
+#vertical-text>h1{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: monument;
+    letter-spacing: 4.5px;
+    /* text-transform: uppercase; */
+    
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(244, 249, 249);
+}
+#nav{
+    position: absolute;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+   justify-content: stretch;
+   width: 50px;
+   left: 7%;
+   top: 5%;
+
+}
+nav>img{
+    height: 5px;
+}
+h5{
+    font-size: 20px;
+    color: azure;
+    font-family: gilroy ;
+}
