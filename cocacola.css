@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+/*  this is for making the nav bar look like nav bar like to make it horizontal */
+#nav{
+    height: 107px;
+    width: 100%;
+    /* background-color: brown; */
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: monospace;
+    /* font-weight: 900; */
+    /* font-size: 14px; */
+    
+}
+/* for creating the space between the nav2 content */
+#nav2{
+    /* background-color: blue; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* for making the menu in center with the logo  */
+#nav>h1{     
+    font-size: 25px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* for making the img size big */
+#nav>i{
+    font-size: 25px;
+}
+/* change the font of nav2 */
+#nav>h5{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/* for changing the of the image */
+#nav  img{
+    height: 30px;
+    /* size: 30px; */
+
+}
+/* to create line */
+#line{
+    height: 2px;
+    width: 65px;
+    background-color: rgb(220, 27, 27);
+}
+/* making the cursor and decoration change */
+h5:hover{
+    text-decoration:underline;
+    text-decoration-color: brown;
+    cursor: pointer;
+    /* text-decoration-color: blanchedalmond; */
+}
+h1:hover{
+    text-decoration:underline;
+    text-decoration-color: brown;
+    cursor: pointer;
+}
+i:hover{
+    cursor: progress;
+}
+/* how to remove the underline of link  */
+a{
+    text-decoration: none;
+}
+/* for the next reamaing content part, for to stop scroll bar we use cal in height ,to make the right left and center in same row use display flex */
+ #content{ 
+    height:calc( 100% - 107px);
+    width:100% ;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+#left{
+    height: 100%;
+    width: 37%;
+    background-color: aqua;
+    padding: 100px 80px;
+} 
+#center{
+    height: 100%;
+    width: 26%;
+    background-color: rgb(199, 181, 44);
+}
+#right{
+    height: 100%;
+    width: 37%;
+    background-color: rgb(55, 115, 44);
+}
+editing p 
+#left>h1{
+    padding: 10px;
+     font-size: 35px;
+    text-align: justify;
+    font-family: gilray;
+    line-height: 35px; 
+    word-spacing: -5px;
+    font-weight: bolder;
+    line-height: -8px;
+}
+span{ */
+    color: red;
+}  
