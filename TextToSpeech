@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300&family=Rubik&display=swap" rel="stylesheet">
+  <title>Text To Speech</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Text To Speech</header>
+    <div class="row">
+      <form action="#">
+        <label for="">Enter Text</label>
+       <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div class="row">
+      <label for="">Seclect Voice</label>
+      <div class="outer">
+        <select name="" id="">
+          <!-- <option value=""> Google हिंदी</option>
+          <option value=""> Google Deutsch</option>
+          <option value="">Google UK English Male</option>
+          <option value="">Google UK English Female</option> -->
+        </select>
+      </div>
+    </div>
+    <button> Convert to Speech</button>
+      </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
